@@ -134,7 +134,6 @@ public class PersonConverterTest {
         });
         assertEquals("Invalid input format: 'Иван Иванов 25.5'", exception.getMessage());
     }
-ПШЕ
 
     @Test
     void testInputWithExtraWhitespace() {
